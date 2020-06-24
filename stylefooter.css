@@ -1,0 +1,27 @@
+.footer {
+	height:60px;
+	background:#FFFFFF;
+}
+.footer table {
+	margin-left:283px;
+}
+.facebook span {
+	color:darkolivegreen;
+	margin-left:800px;
+}
+@media all and (max-width:1050px) {
+	.footer table{
+		margin-left:0;
+	}
+	.facebook span {
+		margin-left:0;
+	}
+}
+@media all and (max-width:750px) {
+	.footer table{
+		margin-left:0;
+	}
+	.facebook span {
+		margin-left:0;
+	}
+}

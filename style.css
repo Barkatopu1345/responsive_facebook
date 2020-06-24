@@ -1,0 +1,113 @@
+body {
+	margin:0;
+}
+.upper {
+	background:#3B5998;
+	padding:30px 0;
+	font-family:arial;
+	color:#FFFFFF;
+	font-size:14px;
+}
+.upper label {
+	cursor:pointer;
+}
+.container {
+	width:90%;
+	margin:auto;
+}
+.upleft {
+	width:30%;
+	float:left;
+}
+.upright {
+	width:70%;
+	overflow:hidden;
+}
+.upright label[for="email"],
+.upright label[for="pass"] {
+	display:block;
+}
+.upright input[type="text"],
+.upright input[type="password"] {
+	display:block;
+	margin:3px 0 3px 0;
+	border:1px solid black;
+	padding:5px 0;
+}
+.Email { 
+	float:left;
+	margin-right:5px;
+}
+.Email input[type="checkbox"] {
+	margin:2px 0 0 0;
+	display:inline-block;
+}
+.Password {
+	float:left;
+	overflow:hidden;
+	margin-right:5px;
+}
+.Password a {
+	text-decoration:none;
+	color:#9CB4D8;
+}
+.Password a:hover {
+	text-decoration:underline;
+	cursor:pointer;
+}
+.Submit {
+	overflow:hidden;
+	display:inline-block;
+	margin-top:20px;
+	
+}
+.Submit input {
+	background:#5A74A8;
+	font-size:12px;
+	color:white;
+	padding:5px 5px;
+	cursor:pointer;
+}
+.upper form {
+	float:right;
+}
+
+
+
+
+
+
+
+@media all and (max-width:770px) {
+	.upleft {
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+	.upright {
+		width:100%;
+	}
+	.upright form {
+		margin:auto;
+	}
+	.upper form {
+		float: none;
+		width: 368px;
+		margin: auto;
+	}
+}
+@media all and (max-width:500px) {
+	.Email {
+		float:none;
+	}
+	.Password {
+		float:none;
+	}
+	.upright from  {
+		width:auto;
+	}
+	.upper input[type="text"],
+	.upper input[type="password"] {
+		width:100%;
+	}
+}
