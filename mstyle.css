@@ -1,0 +1,108 @@
+.main {
+	background:linear-gradient(#FFFFFF, #D4D9E9);
+	font-family:tahoma, arial;
+}
+.mobile {
+	float:left;
+	margin-right:5px;
+}
+.text {
+	overflow:hidden;
+	padding-bottom:300px;
+	font-weight:none;
+	font-family:tahoma, arial;
+}
+.text h3 {
+	margin:30px 0 0 0;
+}
+.text h4 {
+	margin:0;
+}
+.text a {
+	border:1px solid black;
+	background:linear-gradient(#FFFFFF, #E9E9E9);
+	color:black;
+	text-decoration: none;
+	float:right;
+}
+.text h3 {
+	font-size:18px;
+	color:#23355B;
+}
+.text h4 {
+	font-size:14px;
+	color:#9197AD;
+}
+.mobile-area {
+	width: 50%;
+	float: left;
+	margin-right: 10%;
+}
+.mleft {
+	margin-top: 30px;
+	background:url('images/background.png') no-repeat;
+	background-position:left bottom;
+	min-height:200px;
+}
+.mright {
+	overflow:hidden;
+	width:40%;
+	padding-top:30px;
+}
+.mright form input {
+	display:block;
+	padding:10px;
+	width:100%;
+	border:1px solid #C1CADA;
+	margin-bottom: 10px;
+	box-sizing:border-box;
+	border-radius:5px;
+	font-size:26px;
+}
+.mright h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	margin: 0;
+}
+.mright h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	margin: 0 0 20px 0;
+}
+
+form[class="login-area"] input[type="text"]:first-child {
+	width:48%;
+	float:left;
+	margin-right:4%;
+}
+form[class="login-area"] input[type="text"]:nth-child(2) {
+	width:48%;
+	overflow:hidden;
+}
+.gender {
+	display:block;
+}
+p[class="create"] {
+	color:#959CB2;
+}
+input[value="sig up"] {
+	background:#61984D;
+	padding:3px 60px;
+	color:#FFFFFF;
+	font-size:24px;
+}
+
+
+
+
+@media all and (max-width:850px) {
+	.mobile-area {
+		float:none;
+		width:100%
+	}
+	.mright {
+		width:100%;
+	}
+	
+}
